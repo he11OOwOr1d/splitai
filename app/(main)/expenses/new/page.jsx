@@ -21,7 +21,7 @@ export default function NewExpensePage() {
         <CardContent>
           <Tabs className="pb-3" defaultValue="individual">
             <TabsList className="grid w-full grid-cols-2">
-              <TabsTrigger value="individual">Individual Expense</TabsTrigger>
+              <TabsTrigger value="individual">Individual Expense (For 2 people)</TabsTrigger>
               <TabsTrigger value="group">Group Expense</TabsTrigger>
             </TabsList>
             <TabsContent value="individual" className="mt-0">
